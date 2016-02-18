@@ -3,6 +3,8 @@ package org.dynamicloud.lonline;
 import org.dynamicloud.api.BoundInstance;
 import org.dynamicloud.api.annotation.Bind;
 
+import java.util.Date;
+
 /**
  * Copyright (c) 2016 Dynamicloud
  * <p/>
@@ -55,6 +57,7 @@ public class LonlineLog implements BoundInstance {
     private String text;
     private String backtrace;
     private Long count;
+    private Date when;
     private Long recordId;
 
     /**
@@ -142,6 +145,22 @@ public class LonlineLog implements BoundInstance {
     @Bind(field = "count")
     final public void setCount(Long count) {
         this.count = count;
+    }
+
+    /**
+     * @return the creation time of logs
+     */
+    public final Date getWhen() {
+        return when;
+    }
+
+    /**
+     * Sets the time when a log was created.
+     * @param when date time
+     */
+    @Bind(field = "added_at")
+    public final void setWhen(Date when) {
+        this.when = when;
     }
 
     /**
