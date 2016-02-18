@@ -160,7 +160,7 @@ Logger logger = Lonline.getLogger('org.package');
 
 // additionalInformation is an object that extends from LonlineLog class.  That class must add the additional attributes and bind 
 // every set method with the fields in your model.
-// For further information, read the javadoc documentation.
+// For further information, read the lonline java documentation.
 logger.trace('Calling method Y', additionalInformation);
 ```
 
