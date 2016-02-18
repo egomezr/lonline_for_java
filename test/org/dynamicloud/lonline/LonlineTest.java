@@ -41,7 +41,7 @@ public class LonlineTest extends TestCase {
      * Tests Lonline logger
      */
     public void test_lonline_log() {
-        Logger logger = Lonline.getLogger(LonlineTest.class);
+        Logger logger = Logger.getLogger(LonlineTest.class);
 
         logger.error("Testing lonline");
         logger.error("Testing lonline2");
