@@ -142,7 +142,7 @@ Lonline is easy to use, one line of code logs and stores into the cloud.
 ###Log using the six levels
 
 ```java
-Logger logger = Lonline.getLogger('org.package');
+Logger logger = Logger.getLogger('org.package');
 
 logger.trace('Calling method Y');
 logger.debug('Creating new object');
