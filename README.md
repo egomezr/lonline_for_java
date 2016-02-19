@@ -1,4 +1,4 @@
-# Lonline for Java (Building process)
+# Lonline for Java
 Lonline allows you to log your program's execution into the cloud to avoid server access and disk space usage.
 
 Lonline provides 6 levels of logging and 2 methods to execute reports.  Lonline is a logger to log your program through a storing service called Dynamicloud.  With Dynamicloud we can store data dynamically and very easy, Lonline allows you to set more features and this way log more than only text, level and program trace.
@@ -19,6 +19,7 @@ Lonline provides 6 levels of logging and 2 methods to execute reports.  Lonline 
 
 #Installation
 Install lonline's jar like any other jar file in your app's lib folder.
+Lonline jar file is available on release page.
 
 #Settings
 
@@ -141,7 +142,7 @@ Lonline is easy to use, one line of code logs and stores into the cloud.
 ###Log using the six levels
 
 ```java
-Logger logger = Lonline.getLogger('org.package');
+Logger logger = Logger.getLogger('org.package');
 
 logger.trace('Calling method Y');
 logger.debug('Creating new object');
@@ -156,7 +157,7 @@ Lonline allows you to log further data.  If you want to log more information (Fo
 
 **To log additional information, follow the code below:**
 ```java
-Logger logger = Lonline.getLogger('org.package');
+Logger logger = Logger.getLogger('org.package');
 
 // additionalInformation is an object that extends from LonlineLog class.  That class must add the additional attributes and bind 
 // every set method with the fields in your model.
