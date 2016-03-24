@@ -19,7 +19,7 @@ Lonline provides 6 levels of logging and 2 methods to execute reports.  Lonline 
 
 #Installation
 Install lonline's jar like any other jar file in your app's lib folder.
-Lonline jar file is available on release page.
+Lonline jar file is available on [Release page](https://github.com/dynamicloud/lonline_for_java/releases "Release").
 
 #Settings
 
