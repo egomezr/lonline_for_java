@@ -19,9 +19,12 @@ Lonline provides 6 levels of logging and 2 methods to execute reports.  Lonline 
 #Dependencies
 **Lonline has two main dependencies:** [dynamicloud](https://github.com/dynamicloud/dynamicloud_java_api/releases "Dynamicloud Java API") and its dependencies and log4j.
 
-#Installation
-Install lonline's jar like any other jar file in your app's lib folder.
-Lonline jar file is available on [Release page](https://github.com/dynamicloud/lonline_for_java/releases "Release").
+#Instalation
+This mvn command will generate the Lonline jar file
+
+```bash
+mvn package
+```
 
 #Settings
 
