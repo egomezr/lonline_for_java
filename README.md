@@ -17,7 +17,7 @@ Lonline provides 6 levels of logging and 2 methods to execute reports.  Lonline 
   3. [Execute reports](#execute-reports)
 
 #Dependencies
-**Lonline has two main dependencies:** [dynamicloud](https://github.com/dynamicloud/dynamicloud_java_api/releases "Dynamicloud Java API") and its dependencies and log4j.
+**Lonline has two main dependencies:** [dynamicloud](https://github.com/dynamicloud/dynamicloud_java_api "Dynamicloud Java API") and its dependencies and log4j.
 
 #Installation
 This mvn command will generate the Lonline jar file
