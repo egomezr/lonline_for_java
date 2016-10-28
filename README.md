@@ -26,6 +26,15 @@ This mvn command will generate the Lonline jar file
 mvn package
 ```
 
+If you want to add to your Maven project, just add this dependency:
+```xml
+<dependency>
+  <groupId>org.dynamicloud.api</groupId>
+  <artifactId>lonline</artifactId>
+  <version>0.0.1</version>
+</dependency>
+```
+
 #Settings
 
 Lonline needs a basic settings to be configured, the settings of Lonline are within log4j settings file.
