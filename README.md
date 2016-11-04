@@ -56,7 +56,7 @@ log4j.org.dynamicloud.lonline=LONLINE
 log4j.appender.LONLINE=org.dynamicloud.lonline.appender.LonlineAppender
 # This is the model identifier for test and development environment
 # The model contains the structure to store logs into the cloud
-# For more information about models in Dynamicloud visit https://www.dynamicloud.org/documents/mfdoc
+# For more information about models in Dynamicloud visit https://www.dynamicloud.org/documents/apidoc#main_concepts
 log4j.appender.LONLINE.modelIdentifier=Enter_Model_Id
 # Credentials for REST APIs
 # Go to https://www.dynamicloud.org/manage and get the API keys available in your profile
