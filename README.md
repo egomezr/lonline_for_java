@@ -172,14 +172,14 @@ Lonline is easy to use, one line of code logs and stores into the cloud.
 ###Log using the six levels
 
 ```java
-Logger logger = Logger.getLogger('org.package');
+Logger logger = Logger.getLogger("org.package");
 
-logger.trace('Calling method Y');
-logger.debug('Creating new object');
-logger.info('Process has finished');
+logger.trace("Calling method Y");
+logger.debug("Creating new object");
+logger.info("Process has finished");
 logger.warn("It could'n create this object, the process will try later.");
-logger.error('Unable to load setting file');
-logger.fatal('The app has crashed and its state is unavailable');
+logger.error("Unable to load setting file");
+logger.fatal("The app has crashed and its state is unavailable");
 ```
 
 ###Additional data
@@ -187,12 +187,12 @@ Lonline allows you to log further data.  If you want to log more information (Fo
 
 **To log additional information, follow the code below:**
 ```java
-Logger logger = Logger.getLogger('org.package');
+Logger logger = Logger.getLogger("org.package");
 
 // additionalInformation is an object that extends from LonlineLog class.  That class must add the additional attributes and bind 
 // every set method with the fields in your model.
 // For further information, read the lonline java documentation.
-logger.trace('Calling method Y', additionalInformation);
+logger.trace("Calling method Y", additionalInformation);
 ```
 
 ###Execute reports
