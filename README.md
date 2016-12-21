@@ -88,6 +88,8 @@ log4j.appender.LONLINE.Backtrace=true
 # async = true is the best choice to avoid impact in your app's execution.
 # If you want to wait for every request, set async: false
 log4j.appender.LONLINE.Async=true
+# This is important to avoid a crash with Dynamicloud dependencies.
+log4j.logger.org.apache=OFF
 ############################################################################################################
 ############################################################################################################
 # End of Lonline appender ##################################################################################
