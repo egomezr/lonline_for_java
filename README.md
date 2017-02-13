@@ -189,7 +189,7 @@ Lonline allows you to log further data.  If you want to log more information (Fo
 
 **To log additional information, follow the code below:**
 ```java
-Logger logger = Logger.getLogger("org.package");
+Lonline logger = Lonline.getLogger("org.package");
 
 // additionalInformation is an object that extends from LonlineLog class.  That class must add the additional attributes and bind 
 // every set method with the fields in your model.
