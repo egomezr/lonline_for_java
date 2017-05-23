@@ -11,7 +11,7 @@ Lonline allows you to log your program's execution into the cloud to avoid serve
 
 Lonline provides 6 levels of logging and 2 methods to execute reports.  Lonline is a logger to log your program through a storing service called Dynamicloud.  With Dynamicloud we can store data dynamically and very easy, Lonline allows you to set more features and this way log more than only text, level and program trace.
 
-#Lonline manager (Beta)
+# Lonline manager (Beta)
 
 This manager allows you to check your logs from anywhere, likewise you will be able to configure alerts, execute searchs, import and create containers, <a href="https://lonline.io/wizard" target="_blank">Configuration Wizard</a>, etc.
 
@@ -28,10 +28,10 @@ This manager allows you to check your logs from anywhere, likewise you will be a
   2. [Additional data](#additional-data)
   3. [Execute reports](#execute-reports)
 
-#Dependencies
+# Dependencies
 **Lonline has two main dependencies:** [dynamicloud](https://github.com/dynamicloud/dynamicloud_java_api "Dynamicloud Java API") and its dependencies and log4j.
 
-#Installation
+# Installation
 This mvn command will generate the Lonline jar file
 
 ```bash
@@ -47,7 +47,7 @@ If you want to add to your Maven project, just add this dependency:
 </dependency>
 ```
 
-#Settings
+# Settings
 
 Lonline needs a basic settings to be configured, the settings of Lonline are within log4j settings file.
 
@@ -152,7 +152,7 @@ A model is the cointainer of these fields, to add a model follow the next steps:
 log4j.appender.LONLINE.modelIdentifier=Enter_Model_Id
 ```
 
-####The last step is to copy the API credentials (CSK and ACI keys) to put them in your `log4j.properties` file.
+#### The last step is to copy the API credentials (CSK and ACI keys) to put them in your `log4j.properties` file.
 
 1. Click on **Your name link at left top of your account**
 2. Copy the CSK and ACI keys and put them into your `log4j.properties` file.
@@ -168,10 +168,10 @@ log4j.appender.LONLINE.Aci=Enter_API_Client_Id
 
 At this moment you have the necessary to start to log your program into the cloud.
 
-#How to use
+# How to use
 Lonline is easy to use, one line of code logs and stores into the cloud.
 
-###Log using the six levels
+### Log using the six levels
 
 ```java
 Logger logger = Logger.getLogger("org.package");
@@ -184,7 +184,7 @@ logger.error("Unable to load setting file");
 logger.fatal("The app has crashed and its state is unavailable");
 ```
 
-###Additional data
+### Additional data
 Lonline allows you to log further data.  If you want to log more information (For example: The module in your application who has executed the log.) just pass a LonlineLog object with the attributes and values.  Remember that these additional attributes must match with the fields in your model, so you need to add these fields before to log.
 
 **To log additional information, follow the code below:**
@@ -197,7 +197,7 @@ Lonline logger = Lonline.getLogger("org.package");
 logger.trace("Calling method Y", additionalInformation);
 ```
 
-###Execute reports
+### Execute reports
 Lonline allows you to execute reports about the executed logs and count how many logs have been created so far.
 
 ```java
