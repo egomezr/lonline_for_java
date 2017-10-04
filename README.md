@@ -216,5 +216,3 @@ LonlineReport.fetch(LonlineLevel.ERROR, from, to, LonlineLog.class, new LonlineR
 Long count = LonlineReport.count(LonlineLevel.ERROR, from, to);
 System.out.println("Count = " + count);
 ```
-
-For further information and support about lonline, contact us at [Contact](https://www.dynamicloud.org/contact "Dynamicloud contact")
