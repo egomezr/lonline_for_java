@@ -1,8 +1,3 @@
-![Lonline Logo](https://lonline.io/assets/img/lonline-logo.png?rand=1 "Lonline logo")
-
-<hr>
-
-[![Build Status](https://travis-ci.org/dynamicloud/lonline_for_java.svg?branch=master)](https://travis-ci.org/dynamicloud/lonline_for_java)
 ![alt text](https://img.shields.io/badge/api%20version-0.0.1-brightgreen.svg "")
 
 # For Java
